@@ -30,7 +30,7 @@ Pb<-100*medn/sum(Pi.av*b);Pb
 Pc<-b/100*Pb;Pc
 RSAL<-(mean(b)-b[1])/(b[nf]-b[1]);RSAL
 
-CV<-(sum(Pi.av*(b-mean(b))ˆ2)ˆ.5)/mean(b);CV
+CV<-(sum(Pi.av*(b-mean(b))^2)^.5)/mean(b);CV
 
 
 
